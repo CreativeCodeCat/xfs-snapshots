@@ -3,6 +3,8 @@
 
 include config.mk
 
+all:
+
 install: all
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	cp -f xfs-snapshots $(DESTDIR)$(PREFIX)/bin
